@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f8f4;
+    color: #333;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d7504;
+    padding: 15px 60px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #b8d59b, #e2f3d8);
+    padding: 100px 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.hero {
+    background-image: url("2.0.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: #0d7504;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #095a03;
+}
+
+.btn-secondary {
+    border: 2px solid #0d7504;
+    color: #0d7504;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #0d7504;
+    color: white;
+}
+
+.hero-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.small-box {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 12px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.small-box:hover {
+    transform: translateY(-5px);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 60px;
+    background-color: white;
+}
+
+.feature {
+    width: 25%;
+    text-align: center;
+}
+
+.icon {
+    background-color: #b8d59b;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+}
+
+
+.footer {
+    background-color: #0d7504;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-logo {
+    height: 35px;
+    margin-bottom: 10px;
