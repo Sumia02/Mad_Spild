@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madspild Forside</title>
+    <link rel="stylesheet" href="css%20forside.css">
+</head>
+<body>
+
+
+<nav class="nav">
+    <img src="logo.jpg" alt="Madspild Logo" class="logo">
+
+    <div class="nav-links">
+        <a href="#">Forside</a>
+        <a href="#">Forbrugere</a>
+        <a href="#">Virksomheder</a>
+        <a href="#">Information</a>
+    </div>
+</nav>
+
+
+
+
+<div class="hero">
+    <h1>Stop Madspild</h1>
+    <p>Hvert år smides tonsvis af mad ud. Sammen kan vi gøre en forskel ved at udnytte maden bedre og reducere spild.</p>
+    <button>Læs mere</button>
+</div>
+
+
+<section>
+    <h2>Hvorfor madspild er et problem</h2>
+    <p>Madspild belaster miljøet, økonomien og spilder værdifulde ressourcer. Selv små ændringer kan gøre en stor forskel.</p>
+</section>
+
+
+<footer class="footer">
+    <img src="logo.jpg" alt="Madspild Logo" class="footer-logo">
+    <p>Copyright © 2026 Madspild</p>
+</footer>
+
+</body>
+</html>
