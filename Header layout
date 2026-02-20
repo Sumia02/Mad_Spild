@@ -1,0 +1,10 @@
+<nav class="nav">
+    <img src="logo.jpg" alt="Madspild Logo" class="logo">
+
+    <div class="nav-links">
+        <a href="#">Forside</a>
+        <a href="#">Forbrugere</a>
+        <a href="#">Virksomheder</a>
+        <a href="#">Information</a>
+    </div>
+</nav>
